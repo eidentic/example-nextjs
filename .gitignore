@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Eidentic / SQLite databases
+eidentic.db
+eidentic.db-shm
+eidentic.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# misc
+.DS_Store
+*.log
